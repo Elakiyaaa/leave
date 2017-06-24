@@ -6,16 +6,18 @@ public class sumtree {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.print("ENTER THE NUMBER");
-		Scanner s=new Scanner(System.in);
-		int a=s.nextInt();
-		int temp=0;
-		for(int i=0;i<=a;i++){
-		temp=temp+i;
+		int temp1=0,temp=0;
+		for(int i=1;i<15;i++){
+		temp1=temp1+i;
 		}
-		System.out.print(temp);
+		System.out.println(temp1);
+		for(int i=15;i<45;i++){
+		if(i%2!=0){
+			temp=temp+i;
 		}
+				
+		}
+		System.out.println(temp);
+		
 	}
-
-
+}
